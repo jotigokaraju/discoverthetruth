@@ -1,0 +1,293 @@
+.Header {
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+
+#cialogo {
+    background-color: white;
+}
+body {
+    background-color: white;
+}
+
+#IMAGE {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.introduction {
+    font-size: large;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(235, 243, 237);
+    position: relative;
+    margin: 0;
+    border-bottom: 5px dotted black;
+    width: 100%;
+
+    
+}
+  
+nav ul li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+
+
+.LINK a {
+    display: block;
+    color: rgb(5, 0, 0);
+    text-align: center;
+    padding: 16px 16px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+
+
+
+nav ul li a:hover:not(.active) {
+    background-color: rgb(100, 240, 65);
+}
+  
+#FAVICON {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+
+.indentdiv {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+    background-color: rgb(221, 248, 239);
+}
+
+.flex {
+    margin-top: 0%;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.hqimage {
+    animation: fadeIn 6s;
+    display: block;
+    padding-left: 40%;
+    padding-right: 40%;
+    background-color: white;
+}
+.flex .quote {
+    background-color: white;
+    margin-right: 30px;
+    text-align: justify;
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    padding: 20px;
+}
+
+.flex #caption {
+    margin-left: 500px;
+    font-style: italic;
+    font-size:large;
+}
+
+#Animate {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: rgb(255, 255, 255);
+    opacity: var(opacity);
+}
+
+.space {
+    margin-top: 100px; 
+}
+.lessspace {
+    margin-top: 50px; 
+}
+
+
+.flex .fade-in-image { 
+    margin-top: 0;
+    padding-top: 0;
+    padding: 0;
+    margin: 0;
+    margin-right: 0%;
+    padding-right: 0%;
+    margin-left: 0px;
+    animation: fadeIn 6s; 
+}
+
+.flex .fade-in-text {
+    font-size: xx-large;
+    font-style: italic;
+    margin-top: 300px;
+    padding-top: 0;
+    padding-left: 0%;
+    margin-left: 100px;
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  
+.fade-in-navbar {
+    animation-delay: 6s;
+    animation: fadeIn 10s; 
+}
+
+.flex .bio {
+    margin-left: 3%;
+}
+
+.flex .bioimage {
+    align-items: center;
+
+
+}
+
+.flex .animate-expand {
+    height:300px;
+    width:300px;
+    background-color:#77b2da;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+
+    bottom: 0;
+    transition: all 0.5s;
+}
+.flex .animate-expand:hover {
+    height: 300px;
+    width: 400px;
+}
+.flex .animate-expand, .alternate-text {
+
+    padding-top:2px;
+    font-size:9px;
+    color:#FFFFFF;
+    font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align:center;
+}
+.alternate-text {
+    display: none;
+    font-size: x-large;
+    visibility:hidden;
+}
+
+.flex .animate-expand:hover .alternate-text {
+    display: block;
+    visibility: visible;
+}
+
+    
+
+.flex .animate-expand:hover .og-text {
+    display: none;
+    visibility: hidden;
+}
+
+.og-text {
+    margin-top: 40%;
+    text-align: center;
+    font-size: xx-large;
+    visibility: visible;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.sudo-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#dropdown {
+    display: block;
+    margin-right: 4%;
+    margin-top: 1%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.dropup {
+    transform: scaleY(-1);
+    display: block;
+    margin-right: 4%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.indentdiv .flex .gallery {
+    display: block;
+    border: 1px solid #ccc;
+    float:none;
+    width: 30%;
+    margin-left: 2.5%
+}
+  
+.indentdiv .flex .gallery:hover {
+    border: 1px solid #777;
+}
+  
+.indentdiv .flex .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+  
+.indentdiv .flex .description {
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact the User</title>
+    <link rel="stylesheet" href="../Style.css">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('.sudo-form form');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+                form.style.display = 'none';
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html"><img id="FAVICON" src="../LOGO.jfif" alt="CONSPIRACY IMAGE" width="60" height="60"></a></li>
+            <li class="LINK"><a href="../Administrator/contact-us.html">Join the Movement!</a></li>
+            <li class="LINK"><a href="../Administrator/about-us.html">About Us</a></li>
+            <li class="LINK"><a href="../Evidence/Scientific_Proof.html">The Science</a></li>
+            <li class="LINK"><a href="../Evidence/Photographic_Evidence.html">The Evidence</a></li>
+        </ul>
+    </nav>
+
+    <! Relative Links may use IDs instead of classes to link to each other when needed -->
+    <a href="#LINKHERE"><img id="dropdown" src="../icon-down.png" alt="Arrow Pointing Down to Link to Main Text" width="50"></a>
+
+    <div class="hqimage">
+        <img src="../LOGO.jfif" alt="CONSPIRACY IMAGE" width="400" height="400">
+    </div>
+
+    <p class="space"></p>
+
+    <div class="indentdiv">
+
+        <h1 class="Header">We Want to Hear From You!</h1>
+        <p class = "introduction">Interested in Learning More? We are always hiring new recruits to spread the message about dihydrogen monoxide. <strong>We Cannot 
+            Let More Innocent Souls Die From This Government-Sponsored Poison!</strong>   
+        </p>
+
+        <p id="LINKHERE"></p>
+        <p class="lessspace"></p>
+
+        <h3>Join our Mailing List!</h3>
+
+        <div class="sudo-form">
+
+            <form>
+
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <input type="text" id="country" name="country" placeholder="Your country...">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your Email...">
+
+              <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+        <p class="lessspace">  </p>
+        <h3>Contact Our Email Directly <a href="mailto:conspiracytheory.com"><em>here</em></a></h3>
+
+    </div>
+
+    <p class="lesspace"></p>
+    <! Relative Links may use IDs instead of classes to link to each other when needed -->
+    <a href="#dropdown"><img class="dropup" src="../icon-down.png" alt="Arrow Pointing Up to Top of Page" width="50"></a>
+    <p><i>JS Code from Quora and StackOverflow</i></p>
+    
+</body>
+</html>
